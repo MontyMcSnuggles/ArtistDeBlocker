@@ -11,8 +11,8 @@ def clear():
 loop= ""
 
 #ADD FEATURE: While these 2 modules below are installed, do not install them again.
-#install("pywin32")
-#install("requests")
+install("pywin32")
+install("requests")
 clear()
 import requests
 
