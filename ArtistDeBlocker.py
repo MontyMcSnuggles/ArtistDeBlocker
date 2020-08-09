@@ -92,14 +92,17 @@ while loop != "" or loop != "r":
         #Create destructable lists and shuffle them
         fcharacters= fcharlist[:] 
         mcharacters= mcharlist[:]
+        settings= settinglist[:]
         random.shuffle(fcharacters)
         random.shuffle(mcharacters)
+        random.shuffle(settings)
 
-        #Display characters
+        #Display characters and setting
         for i in range(numberofcharsf):
             print("Female character #" + str(i+1) + ":", fcharacters.pop())
         for i in range(numberofcharsm):
             print("Male character #" + str(i+1) + ":", mcharacters.pop())
+        print("Setting: " + settings[0])
 
         #Mildly lewd conditions
         if lewdlevel == 1:
