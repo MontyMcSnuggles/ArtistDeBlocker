@@ -100,7 +100,6 @@ while loop != "" or loop != "r":
             print("Female character #" + str(i+1) + ":", fcharacters.pop())
         for i in range(numberofcharsm):
             print("Male character #" + str(i+1) + ":", mcharacters.pop())
-        print("\n")
 
         #Mildly lewd conditions
         if lewdlevel == 1:
