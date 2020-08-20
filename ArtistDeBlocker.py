@@ -64,15 +64,17 @@ while loop != "" or loop != "r":
         while True:
             numberofcharsm= int(input("Choose a number of male characters (0, 1, 3, etc.):\n"))
             if numberofcharsm > len(mcharlist):
-                print("You cannot choose a number greater than the amount of male characters available.")
-                continue
+                print("There are only", len(mcharlist), "male characters available, the program will give you every available male character.\n")
+                numberofcharsm= int(len(mcharlist))
+                break
             else:
                 break
         while True:
             numberofcharsf= int(input("Choose a number of female characters (0, 1, 3, etc.):\n"))
             if numberofcharsf > len(fcharlist):
-                print("You cannot choose a number greater than the amount of female characters available.")
-                continue
+                print("There are only", len(fcharlist), "female characters available, the program will give you every available female character.\n")
+                numberofcharsf= int(len(fcharlist))
+                break
             else:
                 break
         while True:
