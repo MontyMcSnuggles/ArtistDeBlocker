@@ -1,0 +1,3 @@
+Guide: https://docs.google.com/document/d/14gjVk3Ut0Plc8Nh9SC_7LN7uvVpVPApLPNfB0my-HhM/edit?usp=sharing
+Suggestions: https://docs.google.com/document/d/15AMG-TKgVWmB7_sNzUEPj8XrO4mjy-erBHOXfu3sZ5s/edit#heading=h.zfo6ta1pb419
+Colab: https://colab.research.google.com/drive/1Wm33OQ7iy4jP04stuHOqyM-0Rc8uKSOb#scrollTo=A5hK5m3voXbl
